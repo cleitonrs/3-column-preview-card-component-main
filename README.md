@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://github.com/cleitonrs/3-column-preview-card-component-main]
+- Live Site URL: [https://cleitonrs.github.io/3-column-preview-card-component-main/]
 
 ## My process
 
