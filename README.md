@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-
+![desktop-preview](https://user-images.githubusercontent.com/62728037/120700938-a9e6be80-c488-11eb-8c06-69ef6984f82c.jpg)
 
 
 ### Links
