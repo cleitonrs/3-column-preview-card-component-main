@@ -1,0 +1,136 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  --transparent-white: hsl(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: var(--very-light-gray);
+}
+
+.container {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.card {
+  max-width: 305px;
+  height: 500px;
+  display: grid;
+  padding: 48px;
+}
+
+.card1 {
+  background-color: var(--bright-orange);
+  border-radius: 10px 0 0 10px;
+}
+
+.card2 {
+  background-color: var(--dark-cyan);
+}
+
+.card3 {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 10px 10px 0;
+}
+
+h1 {
+  color: var(--very-light-gray);
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--transparent-white);
+  line-height: 1.5rem;
+}
+
+button {
+  width: 145px;
+  height: 50px;
+  border: none;
+  border-radius: 50px 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: var(--very-light-gray);
+  align-self: end;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+button:hover {
+  border: 2px solid;
+  color: var(--very-light-gray);
+}
+
+.button1 {
+  color: var(--bright-orange);
+}
+
+.button1:hover {
+  background-color: var(--bright-orange);
+}
+
+.button2 {
+  color: var(--dark-cyan);
+}
+
+.button2:hover {
+  background-color: var(--dark-cyan);
+}
+
+.button3 {
+  color: var(--very-dark-cyan);
+}
+
+.button3:hover {
+  background-color: var(--very-dark-cyan);
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: var(--bright-orange); 
+  text-decoration: none;
+}
+
+@media (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    width: 330px;
+    height: 442px;
+  }
+  .card1 {
+    border-radius: 10px 10px 0 0;
+  }
+  .card3 {
+    border-radius: 0 0 10px 10px;
+  }
+  p {
+    letter-spacing: 0.05rem;
+    font-size: 0.75rem;
+  }
+}
